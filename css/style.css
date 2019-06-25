@@ -1,0 +1,132 @@
+ .xit {
+	padding: 5px 10px;
+	color: #fff;
+	display: inline-block !important;
+	cursor: pointer;
+ }
+
+ .close-modal {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+ }
+
+
+.form-modal {
+	padding: 20px;
+	border: 10px solid rgba(0,0,0,.5);
+}
+
+.product_form input {
+	width: 100%;
+	height: 45px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	padding: 5px 20px;
+	border-radius: 5px;
+}
+
+.product_form label {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.product_form button {
+	border: none;
+	cursor: pointer;
+}
+
+.product_form textarea {
+	width: 100%;
+	height: 80px;
+	resize: none;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.product_form select,
+.product_form option {
+	width: 100%;
+	height: 45px;
+	padding: 5px 20px;
+	border: 1px solid #ddd !important;
+	border-radius: 5px;
+}
+
+.img-box img {
+	width: 180px;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-box p {
+	position: relative;
+	padding: 3px 15px;
+	z-index: 1;
+}
+
+.img-box p:before {
+	position: absolute;
+	content: '';
+	border-left: 10px solid #fff;
+	border-right: 16px solid transparent;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	z-index: 2;
+}
+
+.img-box p:after {
+	position: absolute;
+	content: '';
+	border-right: 10px solid #fff;
+	border-left: 16px solid transparent;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 0;
+	z-index: 2;
+}
+
+.img-box p span {
+	display: inline-block;
+	position: relative;
+}
+
+.img-box p span:before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #B0D877;
+	left: -14px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
